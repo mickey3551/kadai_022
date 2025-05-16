@@ -34,7 +34,7 @@ h2::before {
     content: "●";
     color: rgb(239, 111, 139);
 }
-.contents :nth-child(3):first-letter {
+.contents :nth-of-type(2):first-letter {
     font-weight: bold;
     color: rgb(97, 206, 249);
 }
@@ -59,7 +59,7 @@ footer {
 a {
     text-decoration-color:rgb(255, 255, 255) ;
 }
-a :visited {
+a:visited {
     color: rgb(193, 234, 251);
 }
 a:hover {
